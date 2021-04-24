@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>selenium-java-4.0.0-beta-3</name>
+			<type>2</type>
+			<location>C:/Users/ssand/Downloads/selenium-java-4.0.0-beta-3</location>
+		</link>
+	</linkedResources>
 </projectDescription>

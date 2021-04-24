@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="selenium-java-4.0.0-beta-3"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-15">
 		<attributes>
 			<attribute name="module" value="true"/>
@@ -21,7 +22,7 @@
 	<classpathentry kind="lib" path="JARFiles/poi-ooxml-full-5.0.0.jar"/>
 	<classpathentry kind="lib" path="JARFiles/poi-ooxml-lite-5.0.0.jar"/>
 	<classpathentry kind="lib" path="JARFiles/poi-scratchpad-5.0.0.jar"/>
-	<classpathentry kind="lib" path="JARFiles/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="JARFiles/selenium-server-standalone-3.141.59.jar" sourcepath="C:/Users/ssand/Downloads/selenium-java-4.0.0-beta-3/selenium-api-4.0.0-beta-3-sources.jar"/>
 	<classpathentry kind="lib" path="JARFiles/SparseBitSet-1.2.jar"/>
 	<classpathentry kind="lib" path="JARFiles/xmlbeans-4.0.0.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>

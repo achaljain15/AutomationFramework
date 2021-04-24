@@ -39,8 +39,8 @@ public class LibraryFunctionBrowsers {
 	 */
 	
 	
-	public boolean checkIsElementPresent(WebDriver dr, String xpath) {
-		List <WebElement> elements = dr.findElements(By.xpath(xpath));
+	public boolean checkIsElementPresent(WebDriver dr,  By element) {
+		List <WebElement> elements = dr.findElements(element);
 		if (elements.size()>0)
 			return true;
 		else return false;

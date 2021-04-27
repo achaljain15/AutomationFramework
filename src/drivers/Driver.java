@@ -14,7 +14,12 @@ public class Driver {
 	
 	
 	@BeforeSuite
-	public void oneTimeSetUp(){
+																																						public void oneTimeSetUp(){
+		
+		//e.g. Login to Dependent Machines
+		//Clear Database
+		//Delete Log files
+		//Config files required (Web.config) to update i.e. Update any flag
 		lib=new LibraryFunctionBrowsers();
 		xlLib= new ExcelFunctionLibrary(Configuration.testDataPath);
 		
@@ -23,5 +28,6 @@ public class Driver {
 	@AfterSuite
 	public void oneTimeTearDown() {
 		
+		//Close all connections
 	}
 }

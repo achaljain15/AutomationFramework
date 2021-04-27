@@ -1,10 +1,10 @@
-package testScripts;
+package testing;
 
 import org.testng.annotations.Test;
 
 import drivers.Driver;
 
-public class Test1 extends Driver {
+public class TestingDriverClass extends Driver {
 	
 	@Test
 	public void test1() {

@@ -8,13 +8,14 @@ import functionLibraries.LibraryFunctionBrowsers;
 public class HomePage {
 
 	WebDriver driver;
-	LibraryFunctionBrowsers lib;
+
+	LibraryFunctionBrowsers lib=new LibraryFunctionBrowsers();
 
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
 	}
 
-	By automobile = By.xpath("//div[@class='main-navigation']/ul/li/a[@id='nav_automobile']");
+	By automobile = By.xpath("//a[@id='nav_automobile']");
 	By truck = By.xpath("//div[@class='main-navigation']/ul/li/a[@id='nav_truck']");
 	By motorcycle = By.xpath("//div[@class='main-navigation']/ul/li/a[@id='nav_motorcycle']");
 	By camper = By.xpath("//div[@class='main-navigation']/ul/li/a[@id='nav_camper']");
@@ -23,10 +24,11 @@ public class HomePage {
 			driver.findElement(automobile).click();
 	}
 
-	public boolean isAutommobilePresent() {
+	public boolean isAutomobilePresent() {
 		if (lib.checkIsElementPresent(driver, automobile))
-			return true;
-		else return false;		
+			return true;	
+		else 
+			return false;		
 	}
 	
 	public void clickTruck() {
@@ -34,7 +36,7 @@ public class HomePage {
 	}
 	
 	public boolean isTruckPresent() {
-		if (lib.checkIsElementPresent(driver, automobile))
+		if (lib.checkIsElementPresent(driver, truck))
 			return true;
 		else return false;		
 	}
@@ -44,7 +46,7 @@ driver.findElement(motorcycle).click();
 	}
 
 	public boolean isMotorcyclePresent() {
-		if (lib.checkIsElementPresent(driver, automobile))
+		if (lib.checkIsElementPresent(driver, motorcycle))
 			return true;
 		else return false;		
 	}
@@ -54,7 +56,7 @@ driver.findElement(motorcycle).click();
 	}
 	
 	public boolean isCamperPresent() {
-		if (lib.checkIsElementPresent(driver, automobile))
+		if (lib.checkIsElementPresent(driver, camper))
 			return true;
 		else return false;		
 	}	

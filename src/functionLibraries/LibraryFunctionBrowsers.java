@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -38,6 +39,7 @@ public class LibraryFunctionBrowsers {
 			System.setProperty("webdriver.gecko.driver",Configuration.firefoxDriverPath);
 			driver=new FirefoxDriver();
 	}
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		return driver;
 	}
 	

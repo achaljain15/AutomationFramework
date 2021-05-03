@@ -3,20 +3,20 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScripts.Home.TC_HomePage_Validation">
+      <class name="testScripts.Automobile.TC_AutomobilePage">
         <methods>
-          <include name="setUp"/>
+          <include name="elementsCheck"/>
           <include name="oneTimeTearDown"/>
-          <include name="tearDown"/>
-          <include name="testMotorCycleLink"/>
-          <include name="testCamperLink"/>
           <include name="navigate"/>
-          <include name="oneTimeSetUp"/>
-          <include name="testAutomobileLink"/>
-          <include name="testTruckLink"/>
-          <include name="screenShot"/>
+          <include name="tearDown"/>
+          <include name="enterDetails"/>
+          <include name="EnterVehicleDataisSelected"/>
+          <include name="afterMethodStatus"/>
+          <include name="testAutomobileClicked"/>
+          <include name="setUp"/>
+          <include name="initializeVar"/>
         </methods>
-      </class> <!-- testScripts.Home.TC_HomePage_Validation -->
+      </class> <!-- testScripts.Automobile.TC_AutomobilePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

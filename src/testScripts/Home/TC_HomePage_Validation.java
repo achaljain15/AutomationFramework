@@ -57,8 +57,7 @@ public class TC_HomePage_Validation extends Driver {
 	Assert.assertTrue(homepage.isAutomobilePresent(),"Nahi h bhai automobile");
 	homepage.clickAutomobile();
 	lib.TakesScreenshot(driver,"Achal");
-	Assert.assertTrue( automobileEnterVehicleData.isMakePresent(), "Automobile page par hai apan loog");
-	
+	Assert.assertTrue( automobileEnterVehicleData.isMakePresent(), "Automobile page par hai apan loog");	
 	}
 	
 	  @Test public void testCamperLink() {

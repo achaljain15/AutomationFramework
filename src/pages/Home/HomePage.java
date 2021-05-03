@@ -9,7 +9,7 @@ public class HomePage {
 
 	WebDriver driver;
 
-	LibraryFunctionBrowsers lib=new LibraryFunctionBrowsers();
+	LibraryFunctionBrowsers lib;//=new LibraryFunctionBrowsers();
 
 	public HomePage(WebDriver driver) {
 		this.driver = driver;

@@ -1,112 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="1" failed="1" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-27T16:54:42 IST" name="Suite" finished-at="2021-04-27T16:54:52 IST" duration-ms="10023">
+  <suite started-at="2021-05-02T23:36:44 IST" name="Default suite" finished-at="2021-05-02T23:36:54 IST" duration-ms="10707">
     <groups>
     </groups>
-    <test started-at="2021-04-27T16:54:42 IST" name="Test" finished-at="2021-04-27T16:54:52 IST" duration-ms="10023">
-      <class name="testScripts.Home.TC_HomePage_Validation">
-        <test-method is-config="true" signature="oneTimeSetUp()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@36b4fe2a]" started-at="2021-04-27T16:54:42 IST" name="oneTimeSetUp" finished-at="2021-04-27T16:54:42 IST" duration-ms="8" status="PASS">
+    <test started-at="2021-05-02T23:36:44 IST" name="Default test" finished-at="2021-05-02T23:36:54 IST" duration-ms="10707">
+      <class name="testScripts.Automobile.TC_AutomobilePage">
+        <test-method is-config="true" signature="initializeVar()[pri:0, instance:testScripts.Automobile.TC_AutomobilePage@20f5239f]" started-at="2021-05-02T23:36:44 IST" name="initializeVar" finished-at="2021-05-02T23:36:44 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- oneTimeSetUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testScripts.Home.TC_HomePage_Validation@36b4fe2a]" started-at="2021-04-27T16:54:42 IST" name="setUp" finished-at="2021-04-27T16:54:44 IST" duration-ms="1588" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- initializeVar -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testScripts.Automobile.TC_AutomobilePage@20f5239f]" started-at="2021-05-02T23:36:44 IST" name="setUp" finished-at="2021-05-02T23:36:53 IST" duration-ms="8748" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="navigate()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@36b4fe2a]" started-at="2021-04-27T16:54:44 IST" name="navigate" finished-at="2021-04-27T16:54:46 IST" duration-ms="2540" status="PASS">
+        <test-method is-config="true" signature="navigate()[pri:0, instance:testScripts.Automobile.TC_AutomobilePage@20f5239f]" started-at="2021-05-02T23:36:53 IST" name="navigate" finished-at="2021-05-02T23:36:53 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigate -->
-        <test-method signature="testAutomobileLink()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@36b4fe2a]" started-at="2021-04-27T16:54:46 IST" name="testAutomobileLink" finished-at="2021-04-27T16:54:50 IST" duration-ms="3934" status="PASS">
+        <test-method signature="testAutomobileClicked()[pri:0, instance:testScripts.Automobile.TC_AutomobilePage@20f5239f]" started-at="2021-05-02T23:36:53 IST" name="testAutomobileClicked" finished-at="2021-05-02T23:36:54 IST" duration-ms="1240" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAutomobileLink -->
-        <test-method is-config="true" signature="afterMethodStatus(org.testng.ITestResult)[pri:0, instance:testScripts.Home.TC_HomePage_Validation@36b4fe2a]" started-at="2021-04-27T16:54:50 IST" name="afterMethodStatus" finished-at="2021-04-27T16:54:50 IST" duration-ms="124" status="PASS">
+        </test-method> <!-- testAutomobileClicked -->
+        <test-method is-config="true" signature="afterMethodStatus(org.testng.ITestResult)[pri:0, instance:testScripts.Automobile.TC_AutomobilePage@20f5239f]" started-at="2021-05-02T23:36:54 IST" name="afterMethodStatus" finished-at="2021-05-02T23:36:54 IST" duration-ms="262" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testAutomobileLink status=SUCCESS method=TC_HomePage_Validation.testAutomobileLink()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@36b4fe2a] output={null}]]]>
+                <![CDATA[[TestResult name=testAutomobileClicked status=SUCCESS method=TC_AutomobilePage.testAutomobileClicked()[pri:0, instance:testScripts.Automobile.TC_AutomobilePage@20f5239f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodStatus -->
-        <test-method is-config="true" signature="navigate()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@36b4fe2a]" started-at="2021-04-27T16:54:50 IST" name="navigate" finished-at="2021-04-27T16:54:50 IST" duration-ms="248" status="PASS">
+        <test-method is-config="true" signature="navigate()[pri:0, instance:testScripts.Automobile.TC_AutomobilePage@20f5239f]" started-at="2021-05-02T23:36:54 IST" name="navigate" finished-at="2021-05-02T23:36:54 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigate -->
-        <test-method signature="testCamperLink()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@36b4fe2a]" started-at="2021-04-27T16:54:50 IST" name="testCamperLink" finished-at="2021-04-27T16:54:50 IST" duration-ms="1" status="PASS">
+        <test-method signature="EnterVehicleDataisSelected()[pri:0, instance:testScripts.Automobile.TC_AutomobilePage@20f5239f]" started-at="2021-05-02T23:36:54 IST" name="EnterVehicleDataisSelected" finished-at="2021-05-02T23:36:54 IST" depends-on-methods="testScripts.Automobile.TC_AutomobilePage.testAutomobileClicked" duration-ms="379" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Enter Vehicle Data is not ready for inputs expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Enter Vehicle Data is not ready for inputs expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at testScripts.Automobile.TC_AutomobilePage.EnterVehicleDataisSelected(TC_AutomobilePage.java:73)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCamperLink -->
-        <test-method is-config="true" signature="afterMethodStatus(org.testng.ITestResult)[pri:0, instance:testScripts.Home.TC_HomePage_Validation@36b4fe2a]" started-at="2021-04-27T16:54:50 IST" name="afterMethodStatus" finished-at="2021-04-27T16:54:51 IST" duration-ms="608" status="PASS">
+        </test-method> <!-- EnterVehicleDataisSelected -->
+        <test-method is-config="true" signature="afterMethodStatus(org.testng.ITestResult)[pri:0, instance:testScripts.Automobile.TC_AutomobilePage@20f5239f]" started-at="2021-05-02T23:36:54 IST" name="afterMethodStatus" finished-at="2021-05-02T23:36:54 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testCamperLink status=SUCCESS method=TC_HomePage_Validation.testCamperLink()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@36b4fe2a] output={null}]]]>
+                <![CDATA[[TestResult name=EnterVehicleDataisSelected status=FAILURE method=TC_AutomobilePage.EnterVehicleDataisSelected()[pri:0, instance:testScripts.Automobile.TC_AutomobilePage@20f5239f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodStatus -->
-        <test-method is-config="true" signature="navigate()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@36b4fe2a]" started-at="2021-04-27T16:54:51 IST" name="navigate" finished-at="2021-04-27T16:54:51 IST" duration-ms="226" status="PASS">
+        <test-method signature="elementsCheck()[pri:0, instance:testScripts.Automobile.TC_AutomobilePage@20f5239f]" started-at="2021-05-02T23:36:54 IST" name="elementsCheck" finished-at="2021-05-02T23:36:54 IST" depends-on-methods="testScripts.Automobile.TC_AutomobilePage.EnterVehicleDataisSelected" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_AutomobilePage.elementsCheck()[pri:0, instance:testScripts.Automobile.TC_AutomobilePage@20f5239f] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_AutomobilePage.elementsCheck()[pri:0, instance:testScripts.Automobile.TC_AutomobilePage@20f5239f] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigate -->
-        <test-method signature="testMotorCycleLink()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@36b4fe2a]" started-at="2021-04-27T16:54:51 IST" name="testMotorCycleLink" finished-at="2021-04-27T16:54:51 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- elementsCheck -->
+        <test-method signature="enterDetails()[pri:0, instance:testScripts.Automobile.TC_AutomobilePage@20f5239f]" started-at="2021-05-02T23:36:54 IST" name="enterDetails" finished-at="2021-05-02T23:36:54 IST" depends-on-methods="testScripts.Automobile.TC_AutomobilePage.elementsCheck" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_AutomobilePage.enterDetails()[pri:0, instance:testScripts.Automobile.TC_AutomobilePage@20f5239f] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_AutomobilePage.enterDetails()[pri:0, instance:testScripts.Automobile.TC_AutomobilePage@20f5239f] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMotorCycleLink -->
-        <test-method is-config="true" signature="afterMethodStatus(org.testng.ITestResult)[pri:0, instance:testScripts.Home.TC_HomePage_Validation@36b4fe2a]" started-at="2021-04-27T16:54:51 IST" name="afterMethodStatus" finished-at="2021-04-27T16:54:52 IST" duration-ms="214" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testMotorCycleLink status=SUCCESS method=TC_HomePage_Validation.testMotorCycleLink()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@36b4fe2a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodStatus -->
-        <test-method is-config="true" signature="navigate()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@36b4fe2a]" started-at="2021-04-27T16:54:52 IST" name="navigate" finished-at="2021-04-27T16:54:52 IST" duration-ms="227" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigate -->
-        <test-method signature="testTruckLink()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@36b4fe2a]" started-at="2021-04-27T16:54:52 IST" name="testTruckLink" finished-at="2021-04-27T16:54:52 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTruckLink -->
-        <test-method is-config="true" signature="afterMethodStatus(org.testng.ITestResult)[pri:0, instance:testScripts.Home.TC_HomePage_Validation@36b4fe2a]" started-at="2021-04-27T16:54:52 IST" name="afterMethodStatus" finished-at="2021-04-27T16:54:52 IST" duration-ms="230" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testTruckLink status=SUCCESS method=TC_HomePage_Validation.testTruckLink()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@36b4fe2a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodStatus -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@36b4fe2a]" started-at="2021-04-27T16:54:52 IST" name="tearDown" finished-at="2021-04-27T16:54:52 IST" duration-ms="50" status="PASS">
+        </test-method> <!-- enterDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.Automobile.TC_AutomobilePage@20f5239f]" started-at="2021-05-02T23:36:54 IST" name="tearDown" finished-at="2021-05-02T23:36:54 IST" duration-ms="48" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="oneTimeTearDown()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@36b4fe2a]" started-at="2021-04-27T16:54:52 IST" name="oneTimeTearDown" finished-at="2021-04-27T16:54:52 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="oneTimeTearDown()[pri:0, instance:testScripts.Automobile.TC_AutomobilePage@20f5239f]" started-at="2021-05-02T23:36:55 IST" name="oneTimeTearDown" finished-at="2021-05-02T23:36:55 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- oneTimeTearDown -->
-      </class> <!-- testScripts.Home.TC_HomePage_Validation -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- testScripts.Automobile.TC_AutomobilePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -7,6 +7,7 @@ import configurations.Configuration;
 import functionLibraries.ExcelFunctionLibrary;
 import functionLibraries.LibraryFunctionBrowsers;
 
+//Base Class
 public class Driver {
 	
 	public LibraryFunctionBrowsers lib;
@@ -14,15 +15,13 @@ public class Driver {
 	
 	
 	@BeforeSuite
-																																						public void oneTimeSetUp(){
-		
+	public void initializeVar() {
 		//e.g. Login to Dependent Machines
 		//Clear Database
 		//Delete Log files
 		//Config files required (Web.config) to update i.e. Update any flag
 		lib=new LibraryFunctionBrowsers();
 		xlLib= new ExcelFunctionLibrary(Configuration.testDataPath);
-		
 	}
 
 	@AfterSuite

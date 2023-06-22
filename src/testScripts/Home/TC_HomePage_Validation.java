@@ -21,11 +21,11 @@ import pages.Home.HomePage;
 public class TC_HomePage_Validation extends Driver {
 	WebDriver driver;
 	HomePage homepage;
-
-	pages.Automobile.EnterVehicleData automobileEnterVehicleData;
-	pages.Truck.EnterVehicleData truckEnterVehicleData;
-	pages.Motorcycle.EnterVehicleData motorcycleEnterVehicleData;
-	pages.Camper.EnterVehicleData camperEnterVehicleData; 
+//
+//	pages.Automobile.EnterVehicleData automobileEnterVehicleData;
+//	pages.Truck.EnterVehicleData truckEnterVehicleData;
+//	pages.Motorcycle.EnterVehicleData motorcycleEnterVehicleData;
+//	pages.Camper.EnterVehicleData camperEnterVehicleData; 
 	
 	//EnterInsurantData automobileEnterInsuranceData;	
 	
